@@ -21,11 +21,11 @@
         },
         {
             "route": "/.auth/login/github",
-            "statusCode": 404
+            "statusCode": 401
         },
         {
             "route": "/.auth/login/twitter",
-            "statusCode": 404
+            "statusCode": 401
         },
         {
             "route": "/logout",
