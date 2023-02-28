@@ -3,7 +3,6 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"start": "node .\\build\\index.js",
 		"dev": "vite dev",
 		"build": "vite build",
 		"preview": "vite preview",
@@ -22,7 +21,6 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"dotenv": "^16.0.3",
 		"xlsx": "https://cdn.sheetjs.com/xlsx-0.19.2/xlsx-0.19.2.tgz"
 	}
 }
