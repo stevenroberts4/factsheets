@@ -36,10 +36,6 @@ const config = {
 					  "route": "/logout",
 					  "redirect": "/.auth/logout",
 					  "allowedRoles": ["anonymous", "authenticated"]
-					},
-					{
-					  "route": "/*",
-					  "allowedRoles": ["authenticated"]
 					}
 				  ],
 				  "responseOverrides": {
