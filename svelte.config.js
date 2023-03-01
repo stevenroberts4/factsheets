@@ -43,16 +43,8 @@ const config = {
 					"allowedRoles": ["anonymous", "authenticated"]
 				  },
 				  {
-					"route": "/.auth/complete",
-					"statusCode": 404
-				  },
-				  {
-					"route": "/api/__render",
-					"allowedRoles": ["authenticated"]
-				  },
-				  {
 					"route": "/*",
-					"rewrite": "/api/__render"
+					"allowedRoles": ["authenticated"]
 				  }
 				],
 				"responseOverrides": {
