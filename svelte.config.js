@@ -30,6 +30,12 @@ const config = {
 					"allowedRoles": ["anonymous", "authenticated"]
 				  },
 				  {
+					"route": "/.auth/login/aad/callback",
+					"allowedRoles": [
+					  "anonymous", "authenticated"
+					]
+				  },
+				  {
 					"route": "/.auth/login/github",
 					"statusCode": 404
 				  },
