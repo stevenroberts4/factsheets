@@ -24,6 +24,10 @@ const config = {
 				},
 				*/
 				"routes": [
+					{
+						"route": "/api/__render",
+						"allowedRoles": ["anonymous", "authenticated"]
+					},
 				  {
 					"route": "/login",
 					"rewrite": "/.auth/login/aad",
