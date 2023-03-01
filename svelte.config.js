@@ -12,8 +12,8 @@ const config = {
 					  "azureActiveDirectory": {
 						"registration": {
 						  "openIdIssuer": "https://login.microsoftonline.com/9f9dd56c-1ee0-4a26-bf64-e6039151b4f8/v2.0",
-						  "clientIdSettingName": "AAD_CLIENT_ID",
-						  "clientSecretSettingName": "AAD_CLIENT_SECRET"
+						  "clientIdSettingName": "AZURE_CLIENT_ID",
+						  "clientSecretSettingName": "AZURE_CLIENT_SECRET"
 						}
 					  }
 					}
